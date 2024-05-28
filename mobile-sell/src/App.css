@@ -1,10 +1,11 @@
+
+
+/* src/components/HomePage.css */
 .me-auto {
   display: flex;
   justify-content: flex-end;
   flex-grow: 1;
 }
-
-/* src/components/HomePage.css */
 .container {
   margin-top: 2rem;
 }
@@ -56,6 +57,14 @@ p {
   border-color: #0056b3;
 }
 
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
 /* src/components/LoginPage.css */
 .login-container {
   margin-top: 5rem;
@@ -64,6 +73,16 @@ p {
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .login-title {
@@ -104,4 +123,56 @@ p {
 .login-button:hover {
   background-color: #0056b3;
   border-color: #0056b3;
+}
+
+/* about */
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+/* signup */
+
+/* src/components/SignupForm.css */
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the div takes the full viewport height */
+  background-color: #f8f9fa; /* Optional: add a background color */
+}
+
+
+
+.signup-form {
+  width: 100%;
+  max-width: 600px; /* Control the width of the form */
+  padding: 20px;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.login-fo{
+  width: 100%;
+  max-width: 600px; /* Control the width of the form */
+  padding: 20px;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
