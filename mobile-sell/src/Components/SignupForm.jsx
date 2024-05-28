@@ -4,8 +4,11 @@ import { Container, Form, Button } from 'react-bootstrap';
 
 const SignupPage = () => {
   return (
-    <Container>
-      <h2>Sign Up</h2>
+
+    <div className='signup'>
+      <Container>
+      <div className="signup-form">
+      <h2 className='signup-title'>Sign Up</h2>
       <Form>
         <Form.Group controlId="formBasicName">
           <Form.Label>Name</Form.Label>
@@ -31,7 +34,11 @@ const SignupPage = () => {
           Sign Up
         </Button>
       </Form>
+      </div>
     </Container>
+
+    </div>
+    
   );
 };
 

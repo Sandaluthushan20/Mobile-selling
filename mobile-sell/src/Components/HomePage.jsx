@@ -2,8 +2,12 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
+
+
+
 const HomePage = () => {
   return (
+    <div className="home">
     <Container className="mt-5">
       <Row className="mb-4">
         <Col>
@@ -50,6 +54,7 @@ const HomePage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 
