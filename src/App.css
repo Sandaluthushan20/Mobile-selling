@@ -1,0 +1,286 @@
+
+
+/* HomePage.css */
+.me-auto {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.container {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+
+  background-position: center;
+  
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+/* CSS for .back class */
+.back {
+  /* The background image */
+  background-image: url('./assets/Images/back3.jpg');
+  
+  /* Full height */
+
+  /* Center and cover the background */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Optional: Add a semi-transparent overlay */
+  position: relative;
+}
+.mb-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.row{
+  margin: 70px;
+}
+
+/* src/components/LoginPage.css */
+.login-container {
+  margin-top: 5rem;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.login-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.login-input {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.login-input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login-button {
+  background-color: #007bff;
+  border-color: #007bff;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* about */
+.about{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #7096bc;
+  padding: 50px ;
+  background-image: url('./assets/Images/back3.jpg');
+  
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+
+    position: relative;
+
+}
+
+.about::before {
+  content: '';
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.about > * {
+  position: relative;
+  z-index: 2;
+}
+.about h2 {
+  font-size: 2.5rem;
+
+  color: #000000;
+}
+
+.about p {
+
+  font-size: 1.2rem;
+  color: #03069c;
+}
+
+.about-card {
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-card .card-title {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.about-card .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
+/* signup */
+
+/* src/components/SignupForm.css */
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure the div takes the full viewport height */
+  background-color: #f8f9fa; /* Optional: add a background color */
+}
+
+
+
+.signup-form {
+  width: 100%;
+  max-width: 600px; /* Control the width of the form */
+  padding: 20px;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  text-align: center;
+}
+
+.login-fo{
+  width: 100%;
+  max-width: 600px; /* Control the width of the form */
+  padding: 20px;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* foooter */
+.acording{
+
+  margin: 70px;
+
+
+}
+  
+/* phone */
+.phone{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
